@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color: #eeeeee;
+	color: #043972;
+	background: #833AB4;
+background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+	font-family: "Quicksand", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+
+
+		
+		
+}
+.font-subtitle
+{font-family: "mea culpa", cursive;
+font-weight: 600;
+font-style: normal;}
+h1,h2
+h1{font: italic;
+background: #A21438;
+background: linear-gradient(to right, #A21438 0%, #1C05CF 70%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+	text-shadow: 100px 80px 10px red;
+}
+/*----------layout bo cuc web----------*/
+.container-fluid
+{
+	width: 100%; padding-left: 16px; padding-right: 16px
+	
+}
+/*-----------mobile first------------*/
+	.container
+{
+	width: 95%; margin: auto
+}
+/*----------size tablet------*/
+@media (min-width:600px)
+{
+.container
+	{
+		width: 90%; margin: auto
+	}
+}
+/*---------size cho pc >1000-----------*/
+@media (min-width:1000px)
+{
+.container
+	{
+		width: 80%; margin: auto
+	}
+}
+/*-------chia he thong grid 12 column---------*/
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+[class*="col-"]
+{
+	padding: 15px;
+	border: 1px solid red
+}
+*{ box-sizing: border-box}
+.img-100 {width: 100%}
+.row 
+	{
+	display: flex;
+	flex-wrap: wrap;
+	}
+.card{
+	background: white;
+	border-radius: 10px;
+	padding: 16px
+}
+
